@@ -8,6 +8,11 @@ Este proyecto presenta un mapa interactivo de Bolivia que integra múltiples cap
 - **Visualizaciones comparativas**: gráficos por tipo de turismo, región y municipio.
 - **Dashboard interactivo (Streamlit)**: permite filtrar, explorar y visualizar los datos de forma intuitiva.
 
+### 🗺️ Mapas y Gráficos Interactivos
+
+Puedes explorar la visualización interactiva del turismo en Bolivia [aquí]().
+Y el mapa de pueblos indígenas [aquí]().
+
 ## 📁 Estructura del repositorio
 ├── data/ # Archivos geoespaciales (.geojson, .shp, .csv) 
 ├── mapa_turismo_bolivia.html # Mapa exportado en HTML 
