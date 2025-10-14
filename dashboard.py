@@ -56,14 +56,13 @@ st.pyplot(fig)
 st.subheader("🗺️ Mapas Temáticos Interactivos")
 st.markdown("Los siguientes mapas están alojados en Google Drive para facilitar su visualización en línea.")
 
-# Mapa 1: Municipios coloreados
-st.markdown("### 📍 Mapa de Municipios Coloreados")
-components.iframe("https://drive.google.com/file/d/1lyhBDiIAMchtzDUSpMlUyGzGTjiC70Cj/preview", height=600)
+import streamlit.components.v1 as components
 
-# Mapa 2: Pueblos Indígenas
-st.markdown("### 🧑🏽‍🌾 Mapa de Pueblos Indígenas u Originarios")
-components.iframe("https://drive.google.com/file/d/1w-JytBcsp_T-0RLI6MIJ2OQukT4zNYU1/preview", height=600)
+st.subheader("📍 Mapa de Municipios Coloreados")
+components.html('<iframe src="https://drive.google.com/file/d/1lyhBDiIAMchtzDUSpMlUyGzGTjiC70Cj/preview" width="100%" height="600"></iframe>', height=600)
 
-# Mapa 3: Mapa Turístico General
-st.markdown("### 🌄 Mapa Turístico Interactivo 2024")
-components.iframe("https://drive.google.com/file/d/1HWzfH5J_fGFoxWrmH4Y4xDlmSSzyz3Rj/preview", height=600)
+st.subheader("🧑🏽‍🌾 Mapa de Pueblos Indígenas u Originarios")
+components.html('<iframe src="https://drive.google.com/file/d/1w-JytBcsp_T-0RLI6MIJ2OQukT4zNYU1/preview" width="100%" height="600"></iframe>', height=600)
+
+st.subheader("🌄 Mapa Turístico Interactivo 2024")
+components.html('<iframe src="https://drive.google.com/file/d/1HWzfH5J_fGFoxWrmH4Y4xDlmSSzyz3Rj/preview" width="100%" height="600"></iframe>', height=600)
