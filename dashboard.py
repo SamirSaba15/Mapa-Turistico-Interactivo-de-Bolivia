@@ -18,10 +18,15 @@ Además, accede a mapas temáticos cargados desde Google Drive.
 """)
 
 # --- Cargar datos ---
-bo_atr = gpd.read_file("data/bo_atr.geojson")
-bo_atr2 = gpd.read_file("data/bo_atr2.geojson")
-bo_act = gpd.read_file("data/bo_act.geojson")
-bo_gr = gpd.read_file("data/bo_gr.geojson")
+# --- Cargar datos ---
+bo = gpd.read_file("data/municipios339.shp")
+bo_ap = gpd.read_file("data/mmaya_aps.shp")
+bo_gr = gpd.read_file("data/grandes_regiones.shp")
+bo_pio = gpd.read_file("data/indigena.shp")
+bo_act = gpd.read_file("data/Mapa de actividades turisticas de Bolivia_2012.json")
+bo_atr = gpd.read_file("data/atractivos_turisticos_bolivia_2024.geojson.json")
+bo_atr2 = pd.read_csv("data/atractivos_turisticos2012 - atractivos_turisticos.csv")
+
 
 # --- Filtros ---
 st.sidebar.header("🎛️ Filtros")
