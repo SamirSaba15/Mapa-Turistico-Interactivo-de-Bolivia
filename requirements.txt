@@ -4,6 +4,3 @@ geopandas
 pandas
 matplotlib
 folium
-folium.plugins
-MarkerCluster
-HeatMap
