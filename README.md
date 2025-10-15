@@ -10,8 +10,8 @@ Este proyecto presenta un mapa interactivo de Bolivia que integra múltiples cap
 
 ### 🗺️ Mapas y Gráficos Interactivos
 
-Puedes explorar la visualización interactiva del turismo en Bolivia [aquí]().
-Y el mapa de pueblos indígenas [aquí]().
+Puedes explorar la visualización interactiva del turismo en Bolivia, Mapa de Municipios por departamento, Mapa de Pueblos Indígenas y Heatmap de Atractivos Turísticos 2024 [aquí](https://samirsaba15.github.io/Mapa-Turistico-Interactivo-de-Bolivia/).
+
 
 ## 📁 Estructura del repositorio
 ├── data/ # Archivos geoespaciales (.geojson, .shp, .csv) 
